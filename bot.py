@@ -49,7 +49,7 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 # ============================================
 # KONFIGURATSIYA (environment variables)
 # ============================================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8240102163:AAFKPXaeYltJVV1NAsjJanemdBeHQ08nwk4")
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "1223964472"))
 
 if not BOT_TOKEN:
